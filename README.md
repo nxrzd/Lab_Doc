@@ -1,2 +1,2 @@
 # Homelab
-This is a repository that uses docker containers to replicate a close image to my setup that I run at home.
+This is the repository that links the documentation for most of the docker containers I run at home so you can replicate things.
