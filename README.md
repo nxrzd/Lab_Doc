@@ -6,19 +6,23 @@ This is an index of the documented components of my self-hosted homelab. Each su
 
 ## Components
 
-| Doc | Covers |
-|---|---|
-| [proxmox-infrastructure.md](./proxmox-infrastructure.md) | Compute cluster, VM/LXC layout, storage |
-| [network-security-monitoring.md](./network-security-monitoring.md) | Firewall, SIEM, log/metrics stack |
-| [docker.md](./docker.md) | Containerized services and orchestration approach |
-| [python-scripts.md](./python-scripts.md) | Automation and tooling scripts |
-| [jellyfin.md](./jellyfin.md) | Media server |
-| [web-dev-projects.md](./web-dev-projects.md) | Hosted personal/dev web projects |
-| [smb-servers.md](./smb-servers.md) | File sharing |
-| [nextcloud.md](./nextcloud.md) | Self-hosted cloud storage |
-| [pentest-lab-images.md](./pentest-lab-images.md) | Offensive-security practice VMs (TryHackMe / HTB) |
-| [local-ai.md](./local-ai.md) | Local LLM inference |
-| [authentik.md](./authentik.md) | Identity provider / SSO |
+
+| Component | README | Repo |
+|---|---|---|
+| Proxmox infrastructure | [proxmox-infrastructure.md](./proxmox-infrastructure.md) | [PVE_Infra_Docs](https://github.com/nxrzd/PVE_Infra_Docs) |
+| Network security & monitoring | [network-security-monitoring.md](./network-security-monitoring.md) | [Net_Sec_Doc](https://github.com/nxrzd/Net_Sec_Doc) |
+| DNS (Pi-hole + Unbound) | [dns.md](./dns.md) | [DNS_Doc](https://github.com/nxrzd/DNS_Doc) |
+| Docker | [docker.md](./docker.md) | [Docker_Doc](https://github.com/nxrzd/Docker_Doc) |
+| Python scripts / automation | [python-scripts.md](./python-scripts.md) | [Scripting_Doc](https://github.com/nxrzd/Scripting_Doc) |
+| Jellyfin | [jellyfin.md](./jellyfin.md) | [Jellyfin_Doc](https://github.com/nxrzd/Jellyfin_Doc) |
+| Web dev projects | [web-dev-projects.md](./web-dev-projects.md) | [Web_Projects_Doc](https://github.com/nxrzd/Web_Projects_Doc) |
+| SMB servers | [smb-servers.md](./smb-servers.md) | [SMB_Server_Doc](https://github.com/nxrzd/SMB_Server_Doc) |
+| Nextcloud | [nextcloud.md](./nextcloud.md) | [Nextcloud_Doc](https://github.com/nxrzd/Nextcloud_Doc) (compose reference: [Nextcloud-Docker-Compose-](https://github.com/nxrzd/Nextcloud-Docker-Compose-)) |
+| Pentest lab / TryHackMe / HTB | [pentest-lab-images.md](./pentest-lab-images.md) | [Pentest_Lab_Doc](https://github.com/nxrzd/Pentest_Lab_Doc) |
+| Local AI | [local-ai.md](./local-ai.md) | [Local_AI_Doc](https://github.com/nxrzd/Local_AI_Doc) |
+| Authentik | [authentik.md](./authentik.md) | [Authentik_Doc](https://github.com/nxrzd/Authentik_Doc) |
+| Overall lab replica / reference | _(not a separate README in this set)_ | [HomeLab_Doc](https://github.com/nxrzd/HomeLab_Doc) — "docker containers to replicate a close image to my setup that I run at home" (formerly `Lab_Doc`) |
+
 
 ## General conventions used across these docs
 
